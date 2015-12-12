@@ -1,0 +1,183 @@
+.app-head {
+    padding-bottom: 20px;
+}
+
+/*
+ * Artur Styles
+ */
+
+h1 {
+    display:block;
+    text-align: center;
+}
+
+td.monday, td.wednesday, td.friday, td.sunday {
+    background-color: rgb(249,249,249);
+}
+#canvas-table {
+    /*border: 1px solid red;*/
+    width: 50%%;
+
+    /*position: relative;*/
+}
+#btnDiv {
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid green;*/
+    width: 25%;
+    text-align: center;
+}
+#aBackToPlanner {
+    position: relative;
+
+}
+
+.event.Work {
+    background-color: rgba(241, 196, 15, 1);
+}
+.event.Studies{
+    background-color: rgba(142, 68, 173, 1);
+
+}
+.event.Social{
+    background-color: rgba(22, 245, 99, 1);
+}
+.event.Health{
+    background-color: rgba(41, 128, 185, 1);
+}
+.event.Chill{
+    background-color: rgba(192, 57, 43, 1);
+}
+/*Work:   'rgba(241, 196, 15, 1)',*/
+/*Studies:'rgba(44, 62, 80, 1)',*/
+/*Social: 'rgba(22, 245, 99, 1)',*/
+/*Health: 'rgba(41, 128, 185, 1)',*/
+/*Chill:  'rgba(192, 57, 43, 1)',*/
+/*};*/
+
+
+.modal-body p {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.table {
+    text-align: center;
+    table-layout: fixed;
+}
+
+.table tbody tr td {
+    width: 120px;
+}
+
+.table tbody tr td:first-of-type {
+    max-width: 50px;
+}
+
+.navigation {
+    float: right;
+}
+
+.event1 {
+    width: 120px;
+    height: 37px;
+    background-color: blue;
+    position: absolute;
+}
+
+.event {
+    background-color: rgba(41, 128, 185, 1);
+    border: none;
+    position: absolute;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.event p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.event .desc {
+    font-weight: 400;
+}
+
+.week {
+    text-align: center;
+}
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.table tbody tr td {
+    width: 100px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.table tbody tr td {
+    width: 90px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.table tbody tr td {
+    width: 80px;
+}
+
+.table tbody tr td:first-of-type {
+    width: 50px;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
